@@ -1,0 +1,111 @@
+.user{
+	background: url(../../../static/img/user/bg.jpg) no-repeat;
+	background-size: 100% auto;
+	.headerIcon{
+		width: 44px;
+		height: 44px;
+		&.msg{
+			background: url(../../../static/img/user/msg.png) no-repeat center;
+			background-size: 18px auto;
+			position: relative;
+			.unReadCount{
+				position: absolute;
+				right: 23rpx;
+				top: 13px;
+				background-color: $uni-badge-primary;
+				border-radius: 50%;
+				width: 4px;
+				height: 4px;
+			}
+		}
+		&.set{
+			background: url(../../../static/img/user/set.png) no-repeat center;
+			background-size: 18px auto;
+		}
+	}
+	.userInfo{
+		padding: 60rpx 43rpx;
+		display: flex;
+		justify-content: center;
+		position: relative;
+		&::after{
+			content: '';
+			position: absolute;
+			width: 16rpx;
+			height: 28rpx;
+			background: url(../../../static/img/arrow2Icon.png) no-repeat;
+			background-size: 100% 100%;
+			top: 50%;
+			transform: translateY(-50%);
+			right: 65rpx;
+		}
+		.infoBox{
+			display: flex;
+			align-items: center;
+			.headImg{
+				width: 133rpx;
+				height: 133rpx;
+				border: 5rpx solid #5635ef;
+				border-radius: 50%;
+				margin-right: 26rpx;
+				overflow: hidden;
+				img{
+					display: block;
+					width: 100%;
+					height: 100%;
+				}
+			}
+			.textBox{
+				color: #fff;
+				font-size: 30rpx;
+				.time{
+					font-size: 20rpx;
+					margin: 15rpx 0
+				}
+				.money{
+					display: flex;
+					align-items: center;
+					.icon{
+						margin-right: 27rpx;
+						width: 40rpx;
+						height: 40rpx;
+						background: url(../../../static/img/money.png) no-repeat;
+						background-size: 40rpx auto;
+					}
+				}
+			}
+		}
+	}
+	
+	.list1{
+		margin: 0 40rpx;
+		padding: 30rpx 50rpx;
+		background: $uni-bg-color-box;
+		border-radius: 30rpx;
+		display: flex;
+		box-shadow: 0 10rpx 20rpx rgba(46,22,114,.1);
+		.item{
+			flex: 1;
+			font-size: 24rpx;
+			text-align: center;
+			.icon{
+				width: 96rpx;
+				height: 96rpx;
+				display: block;
+				margin: 0 auto 20rpx;
+				&.brush{
+					background: url(../../../static/img/user/01.png) no-repeat;
+					background-size: 100% auto;
+				}
+				&.week{
+					background: url(../../../static/img/user/02.png) no-repeat;
+					background-size: 100% auto;
+				}
+				&.guide{
+					background: url(../../../static/img/user/03.png) no-repeat;
+					background-size: 100% auto;
+				}
+			}
+		}
+	}
+}

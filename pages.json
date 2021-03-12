@@ -1,0 +1,134 @@
+{
+	"pages": [
+		{
+		    "path" : "pages/login/index",
+		    "style" :                                                                                    
+		    {
+				"app-plus": {
+					"titleNView": false
+				}
+		    }
+		    
+		},
+		{
+			"path": "pages/tabbar/home/home",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/tabbar/user/user",
+			"style": {
+				
+			}
+		}
+        ,{
+            "path" : "pages/searchBluetooth/searchBluetooth",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/setting/setting",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/accountSet/accountSet",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/goldRecord/goldRecord",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/signRecord/signRecord",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/about/about",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/find/find",
+            "style" :                                                                                    
+            {
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/data/data",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/find/goodsDetail/goodsDetail",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "力博得口腔",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"color": "#000",
+		"selectedColor": "#000",
+		"list": [{
+				"pagePath": "pages/tabbar/home/home",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/data/data",
+				"iconPath": "static/img/tabbar/guanzhu.png",
+				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+				"text": "数据"
+			},
+			{
+				"pagePath": "pages/tabbar/find/find",
+				"iconPath": "static/img/tabbar/news.png",
+				"selectedIconPath": "static/img/tabbar/newsactive.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/tabbar/user/user",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"text": "我的"
+			}
+		]
+	}
+}

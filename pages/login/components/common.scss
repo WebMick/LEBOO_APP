@@ -1,0 +1,79 @@
+$url: '../../../static/img/login/';
+.formBox{
+	margin-top: 20rpx;
+	padding: 100rpx 45rpx 20rpx;
+	background-color: #fff;
+	border-radius: 20rpx;
+	position: relative;
+	&:before{
+		content: '';
+		width: 268rpx;
+		height: 217rpx;
+		position: absolute;
+		right: -45rpx;
+		top: -120rpx;
+		background: url($url + 'loginRt.png') no-repeat;
+		background-size: 100% auto;
+	}
+	
+}
+.iptItem{
+	margin-top: 35rpx;
+	height: 100rpx;
+	display: flex;
+	align-items: center;
+	border-bottom: #666 solid 1px;
+	.icon {
+		width: 40rpx;
+		height: 40rpx;
+		&.account{
+			background: url($url + 'account.png') no-repeat center;
+			background-size: 100% auto;
+		}
+		&.password{
+			background: url($url + 'password.png') no-repeat center;
+			background-size: 100% auto;
+		}
+		&.password1{
+			background: url($url + 'registerPwd1.png') no-repeat center;
+			background-size: 100% auto;
+		}
+		&.password2{
+			background: url($url + 'registerPwd2.png') no-repeat center;
+			background-size: 100% auto;
+		}
+		&.ent{
+			opacity: .6;
+		}
+		&.eyes{
+			&.text{
+				background: url($url + 'eyeOpen.png') no-repeat center;
+				background-size: 100% auto;
+			}
+			&.password {
+				background: url($url + 'eyeClose.png') no-repeat center;
+				background-size: 100% auto;
+			}
+		}
+	}
+	.ipt{
+		flex: 1;
+		height: 80rpx;
+		line-height: 80rpx;
+		margin: 0 35rpx;
+		outline: none;
+		border: none;
+		font-size: 30rpx;
+	}
+}
+.btn{
+	background: $uni-btn-primary;
+	display: block;
+	height: 80rpx;
+	text-align: center;
+	line-height: 80rpx;
+	border-radius: 40rpx;
+	color: #fff;
+	letter-spacing: 10rpx;
+	box-shadow: 5rpx 5rpx 15rpx rgba(105,65,255,.6);
+}

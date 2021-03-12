@@ -1,0 +1,45 @@
+.page{
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	&.tabPage{
+		position: absolute;
+		padding-bottom: var(--window-bottom);
+	}
+	.content{
+		flex: 1;
+		overflow-y: scroll
+	}
+}
+
+
+
+.mt10{
+	margin-top: 10rpx;
+}
+.mt20{
+	margin-top: 20rpx;
+}
+uni-actionsheet .uni-actionsheet{
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+uni-actionsheet .uni-actionsheet__action{
+	margin-top: 5px;
+}
+uni-actionsheet .uni-actionsheet__action, uni-actionsheet .uni-actionsheet__menu{
+	border-radius: 0;
+}
+
+.uni-calendar__backtoday{
+	display: none;
+}
+.uni-scroll-view-refresher{
+	.uni-scroll-view-refresh-inner{
+		display: none;
+	}
+}
